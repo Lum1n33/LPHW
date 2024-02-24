@@ -23,7 +23,7 @@ class Engine(object):
 
         while True:
             print
-            "\n--------"
+             "\n--------"
             next_scene_name = current_scene.enter()
             current_scene = self.scene_map.next_scene(next_scene_name)
 
